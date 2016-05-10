@@ -1,0 +1,1441 @@
+<?xml version="1.0"?><OWASPZAPReport version="2.4.3" generated="Mon, 9 May 2016 22:47:07">
+<site name="http://www.verizon.com" host="www.verizon.com" port="80" ssl="false"><alerts><alertitem>
+  <pluginid>10010</pluginid>
+  <alert>Cookie set without HttpOnly flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>AkaSTrackingID=126285e1844f061c33089b7cbbb71a05; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=126285e1844f061c33089b7cbbb71a05; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>AkaUTrackingID=b74558c46b83e33eccad8da3e53e070f; expires=Sat, 13-May-2023 15:27:13 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=b74558c46b83e33eccad8da3e53e070f; expires=Sat, 13-May-2023 15:27:13 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:23 AM; domain=.verizon.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:23 AM; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESJh3bEDKlv0cS5Jh%2FzFS1wQ%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>HBXInitialVisit=Y; domain=.verizon.com; path=/</param>
+  <evidence>HBXInitialVisit=Y; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:23 AM; domain=www.verizonfios.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:23 AM; domain=www.verizonfios.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>vzapps=LEARNAPP=GHP; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>vzapps=LEARNAPP=GHP; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>vzapps=LEARNURL=LEARN|/index.jsp/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>vzapps=LEARNURL=LEARN|/index.jsp/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>vzapps=STATE=; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>vzapps=STATE=; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>vzapps=pqc=0; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</param>
+  <evidence>vzapps=pqc=0; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:24 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/robots.txt</uri>
+  <param>AkaSTrackingID=481aeb074ebd863ca5d82ce8b0fe828d; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=481aeb074ebd863ca5d82ce8b0fe828d; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/robots.txt</uri>
+  <param>AkaUTrackingID=ad6196e2323aa1b64d2c3221c226a7f4; expires=Sat, 13-May-2023 15:27:14 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=ad6196e2323aa1b64d2c3221c226a7f4; expires=Sat, 13-May-2023 15:27:14 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/sitemap.xml</uri>
+  <param>AkaSTrackingID=8deaf198e0782309e40dfccdf41f55e2; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=8deaf198e0782309e40dfccdf41f55e2; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/sitemap.xml</uri>
+  <param>AkaUTrackingID=7205d90ffef86350aba84e828f08217f; expires=Sat, 13-May-2023 15:27:12 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=7205d90ffef86350aba84e828f08217f; expires=Sat, 13-May-2023 15:27:12 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>AkaSTrackingID=481aeb074ebd863ca5d82ce8b0fe828d; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=481aeb074ebd863ca5d82ce8b0fe828d; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>AkaUTrackingID=ad6196e2323aa1b64d2c3221c226a7f4; expires=Sat, 13-May-2023 15:27:14 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=ad6196e2323aa1b64d2c3221c226a7f4; expires=Sat, 13-May-2023 15:27:14 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  </instances>
+  <count>52325</count>
+  <solution>&lt;p&gt;Ensure that the HttpOnly flag is set for all cookies.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;www.owasp.org/index.php/HttpOnly&lt;/p&gt;</reference>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10017</pluginid>
+  <alert>Cross-Domain JavaScript Source File Inclusion</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page at the following URL includes one or more script files from a third-party domain&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>//respframework.verizon.com/vzrf/2-16-0/js/complete/vzrf.min.js</param>
+  <evidence>//respframework.verizon.com/vzrf/2-16-0/js/complete/vzrf.min.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/careers/terremark/</uri>
+  <param>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</param>
+  <evidence>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/careers/terremark/</uri>
+  <param>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</param>
+  <evidence>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/news-tag/</uri>
+  <param>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</param>
+  <evidence>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/news-tag/</uri>
+  <param>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</param>
+  <evidence>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/search-results/</uri>
+  <param>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</param>
+  <evidence>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/search-results/</uri>
+  <param>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</param>
+  <evidence>https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/work/jobs/search?per_page</uri>
+  <param>//connect.talemetry.com/system/production/assets/44538/original/csns_custom.jobsearch.1.0.2.js</param>
+  <evidence>//connect.talemetry.com/system/production/assets/44538/original/csns_custom.jobsearch.1.0.2.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/work/jobs/search?per_page</uri>
+  <param>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</param>
+  <evidence>//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/work/jobs/search?per_page</uri>
+  <param>http://stats.ttccareerportal.com/100769930.js</param>
+  <evidence>http://stats.ttccareerportal.com/100769930.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/work/jobs/search?per_page</uri>
+  <param>https://apply.talemetry.com/assets/direct_apply.js?verison=1.0</param>
+  <evidence>https://apply.talemetry.com/assets/direct_apply.js?verison=1.0</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/$%7Bdomainnameus%7D/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/$%7Bdomainnameus%7D/</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/usingdtv/$%7Bdomainnameus%7D/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/usingdtv/$%7Bdomainnameus%7D/</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/phone/international/basicinternationalrates/$%7Bdomainnameus%7D/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/phone/international/basicinternationalrates/$%7Bdomainnameus%7D/</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/highspeedinternet/$%7Bdomainnameus%7D/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  </instances>
+  <count>48140</count>
+  <solution>&lt;p&gt;Ensure JavaScript source files are loaded from only trusted sources, and the sources can&apos;t be controlled by end users of the application&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/careers/terremark/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/news-tag/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/search-results/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/content/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/cs/idcplg</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/ForYourHome/voip/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/usingdtv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiosinternet/plans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/spanishplans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/phone/international/basicinternationalrates/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/highspeedinternet/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/ordering/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/popup/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/s/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/products/</uri>
+  </instance>
+  </instances>
+  <count>6151</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/content/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/cs/idcplg</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/ForYourHome/voip/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/usingdtv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiosinternet/plans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/spanishplans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/phone/international/basicinternationalrates/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/highspeedinternet/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/ordering/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/popup/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/s/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/products/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/wifi/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/nroneretail/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/idc/</uri>
+  </instance>
+  </instances>
+  <count>2238</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/?lid=//global//residential</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/careers/terremark/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/news-tag/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/search-results/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/content/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/cs/idcplg</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/about/work/jobs/search?per_page</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/ForYourHome/voip/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/directv/usingdtv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiosinternet/plans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/fiostv/spanishplans/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/phone/international/basicinternationalrates/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/highspeedinternet/$%7Bdomainnameus%7D/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/ordering/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/popup/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/s/</uri>
+  </instance>
+  </instances>
+  <count>13295</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY.  ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10019</pluginid>
+  <alert>Content-Type Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Content-Type header missing&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/suppliers</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizon.com/home/storelocator/$%7Bdomainnamenoscheme%7D/home/storelocator/</uri>
+  </instance>
+  </instances>
+  <count>2</count>
+  <solution>&lt;p&gt;Ensure each page is setting the specific and appropriate content-type value for the content being delivered&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>2</pluginid>
+  <alert>Private IP Disclosure</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A private IP such as 10.x.x.x, 172.x.x.x, 192.168.x.x has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizon.com/support/smallbusiness/internet/fiosinternet/networking/setup/vz9100em/125092.htm?pos=2</uri>
+  <attack>192.168.1.1</attack>
+  <evidence>192.168.1.1</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Remove the private IP address from the HTTP response body.  For comments, use JSP/ASP comment instead of HTML/JavaScript comment which can be seen by client browsers.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;192.168.1.1&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://tools.ietf.org/html/rfc1918&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+</alerts></site><site name="https://www.verizon.com" host="www.verizon.com" port="443" ssl="true"><alerts><alertitem>
+  <pluginid>10015</pluginid>
+  <alert>Incomplete or No Cache-control and Pragma HTTP Header Set</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  <evidence>private</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/home/myverizon.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/BillView/ResMyBill.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ebillpay/code/payments_new.aspx?src=leftNav&amp;target=easypay</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/equickpay/code/payfinalbill.aspx</uri>
+  <evidence>no-store,private</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/billview/respfbpage.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/home.aspx?flow=vs</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/internet.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/phone.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/rwrds/home.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/stn/home.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_settings%26myvztab%3d4</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_subaccount</uri>
+  <evidence>no-store</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/supporthome.html?Keyword=Mobile_Repair_Status</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/CheckStatus.aspx</uri>
+  <evidence>no-cache</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  </instance>
+  </instances>
+  <count>1344</count>
+  <solution>&lt;p&gt;Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate, private; and that the pragma HTTP header is set with no-cache.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching&lt;/p&gt;</reference>
+  <cweid>525</cweid>
+</alertitem>
+<alertitem>
+  <pluginid>10010</pluginid>
+  <alert>Cookie set without HttpOnly flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>AkaSTrackingID=df57fe4f68866865359307ce91568d98; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=df57fe4f68866865359307ce91568d98; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>AkaUTrackingID=0662ad0350e7244186810c5c1eb88c32; expires=Sat, 13-May-2023 15:27:21 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=0662ad0350e7244186810c5c1eb88c32; expires=Sat, 13-May-2023 15:27:21 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>dtCookie=D1839B49B0B8F4541F77EE115517F879|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</param>
+  <evidence>dtCookie=D1839B49B0B8F4541F77EE115517F879|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>AkaUTrackingID=921c06d60751a20208d6e3cbc5a34c46; expires=Sat, 13-May-2023 15:27:23 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=921c06d60751a20208d6e3cbc5a34c46; expires=Sat, 13-May-2023 15:27:23 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=.verizon.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>AkaSTrackingID=9867db99dd6b768b78d62c49b3828c64; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=9867db99dd6b768b78d62c49b3828c64; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>HBXInitialVisit=Y; domain=.verizon.com; path=/</param>
+  <evidence>HBXInitialVisit=Y; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=www.verizonfios.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=www.verizonfios.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>vzapps=LEARNAPP=myverizon; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>vzapps=LEARNAPP=myverizon; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>vzapps=LEARNURL=LEARN|myverizon/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>vzapps=LEARNURL=LEARN|myverizon/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <param>AkaSTrackingID=0f9d2b5cf92dc9a94fd2c398fa1e2393; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=0f9d2b5cf92dc9a94fd2c398fa1e2393; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <param>AkaUTrackingID=7bf1a5baf03f53662a62cede07fd5223; expires=Sat, 13-May-2023 15:27:30 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=7bf1a5baf03f53662a62cede07fd5223; expires=Sat, 13-May-2023 15:27:30 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <param>dtCookie=EA9736356C8264D1D0827C4C79E754CF|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</param>
+  <evidence>dtCookie=EA9736356C8264D1D0827C4C79E754CF|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  <param>AkaSTrackingID=76ef42c074a4074afa219836442e4249; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=76ef42c074a4074afa219836442e4249; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  <param>AkaUTrackingID=f0d85572b5ba247fb33269223670d853; expires=Sat, 13-May-2023 15:27:29 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=f0d85572b5ba247fb33269223670d853; expires=Sat, 13-May-2023 15:27:29 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  </instances>
+  <count>7031</count>
+  <solution>&lt;p&gt;Ensure that the HttpOnly flag is set for all cookies.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;www.owasp.org/index.php/HttpOnly&lt;/p&gt;</reference>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10011</pluginid>
+  <alert>Cookie set without secure flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>AkaSTrackingID=df57fe4f68866865359307ce91568d98; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=df57fe4f68866865359307ce91568d98; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>AkaUTrackingID=0662ad0350e7244186810c5c1eb88c32; expires=Sat, 13-May-2023 15:27:21 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=0662ad0350e7244186810c5c1eb88c32; expires=Sat, 13-May-2023 15:27:21 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>dtCookie=D1839B49B0B8F4541F77EE115517F879|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</param>
+  <evidence>dtCookie=D1839B49B0B8F4541F77EE115517F879|TXlWZXJpem9ufDE; Path=/; Domain=.verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  <param>NSC_xxx22_gzi_nzbddu_mcw=ffffffff895bc52445525d5f4f58455e445a4a423660;path=/;httponly</param>
+  <evidence>NSC_xxx22_gzi_nzbddu_mcw=ffffffff895bc52445525d5f4f58455e445a4a423660;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>AkaSTrackingID=9867db99dd6b768b78d62c49b3828c64; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=9867db99dd6b768b78d62c49b3828c64; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>AkaUTrackingID=921c06d60751a20208d6e3cbc5a34c46; expires=Sat, 13-May-2023 15:27:23 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=921c06d60751a20208d6e3cbc5a34c46; expires=Sat, 13-May-2023 15:27:23 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=.verizon.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>VZ_ATLAS_SITE_PERS=BusinessUnit=residential; domain=.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizonfios.com; expires=Sun, 07-Aug-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>GlobalSessionID=NESXKNoQ6lqfkJUVKUl%2F8RYow%3D%3D; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>HBXInitialVisit=Y; domain=.verizon.com; path=/</param>
+  <evidence>HBXInitialVisit=Y; domain=.verizon.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=www.verizonfios.com; path=/</param>
+  <evidence>ReferenceSessionCookie=05/09/2016 11:27:33 AM; domain=www.verizonfios.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>vzapps=LEARNAPP=myverizon; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>vzapps=LEARNAPP=myverizon; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>vzapps=LEARNURL=LEARN|myverizon/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</param>
+  <evidence>vzapps=LEARNURL=LEARN|myverizon/; domain=www.verizon.com; expires=Fri, 08-Jul-2016 15:27:34 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>ONECMS_JSESSIONID=XRhdXwsFwD6dhSj32pG572vXkY1MGqcywrcrTQQPpNGJfpq42vK0!-1066337965; path=/; HttpOnly</param>
+  <evidence>ONECMS_JSESSIONID=XRhdXwsFwD6dhSj32pG572vXkY1MGqcywrcrTQQPpNGJfpq42vK0!-1066337965; path=/; HttpOnly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>NSC_xxx22_ipnf_mcw=ffffffff895bc42c45525d5f4f58455e445a4a423660;path=/;httponly</param>
+  <evidence>NSC_xxx22_ipnf_mcw=ffffffff895bc42c45525d5f4f58455e445a4a423660;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <param>AkaSTrackingID=0f9d2b5cf92dc9a94fd2c398fa1e2393; path=/; domain=verizon.com</param>
+  <evidence>AkaSTrackingID=0f9d2b5cf92dc9a94fd2c398fa1e2393; path=/; domain=verizon.com</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  <param>AkaUTrackingID=7bf1a5baf03f53662a62cede07fd5223; expires=Sat, 13-May-2023 15:27:30 GMT; path=/; domain=verizon.com</param>
+  <evidence>AkaUTrackingID=7bf1a5baf03f53662a62cede07fd5223; expires=Sat, 13-May-2023 15:27:30 GMT; path=/; domain=verizon.com</evidence>
+  </instance>
+  </instances>
+  <count>8687</count>
+  <solution>&lt;p&gt;Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted tunnel. Ensure that the secure flag is set for cookies containing such sensitive information.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://www.owasp.org/index.php/Testing_for_cookies_attributes_(OWASP-SM-002)&lt;/p&gt;</reference>
+  <cweid>614</cweid>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/home/myverizon.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/BillView/ResMyBill.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ebillpay/code/payments_new.aspx?src=leftNav&amp;target=easypay</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/equickpay/code/payfinalbill.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/billview/respfbpage.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/home.aspx?flow=vs</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/internet.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/phone.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/rwrds/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/stn/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_settings%26myvztab%3d4</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_subaccount</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/supporthome.html?Keyword=Mobile_Repair_Status</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/CheckStatus.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  </instance>
+  </instances>
+  <count>1426</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/home/myverizon.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/BillView/ResMyBill.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ebillpay/code/payments_new.aspx?src=leftNav&amp;target=easypay</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/billview/respfbpage.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/home.aspx?flow=vs</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/internet.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/phone.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/rwrds/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/stn/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_settings%26myvztab%3d4</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_subaccount</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/supporthome.html?Keyword=Mobile_Repair_Status</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/CheckStatus.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/whatsnext/residential/OrderStatus/WNRLogin.aspx?CMP=DMC-CVZ_ZZ_ZZ_Z_DO_N_X031&amp;src=Support</uri>
+  </instance>
+  </instances>
+  <count>1001</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd=profile_settings&amp;myvztab=1</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/MyAccount/ngen/pr/svcs/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/myverizon/Registrationbridge.aspx?Client=MYVER&amp;FlowRoute=ACCOUNTREVIEW</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/home/myverizon.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/BillView/ResMyBill.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ebillpay/code/payments_new.aspx?src=leftNav&amp;target=easypay</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/billview/respfbpage.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/home.aspx?flow=vs</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/internet.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/svcs/phone.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/rwrds/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/myaccount/ngen/pr/stn/home.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_settings%26myvztab%3d4</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/MyAccount/ngen/pr/user/profile.aspx?myvzmd%3dprofile_subaccount</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/supporthome.html?Keyword=Mobile_Repair_Status</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/whatsnext/residential/OrderStatus/WNRLogin.aspx?CMP=DMC-CVZ_ZZ_ZZ_Z_DO_N_X031&amp;src=Support</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/FORYOURHOME/GOFLOW/MyVerizon/RegistrationBridge.aspx?Client=MYVER&amp;FlowRoute=UPGRADE-RENEW</uri>
+  </instance>
+  </instances>
+  <count>1291</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY.  ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10017</pluginid>
+  <alert>Cross-Domain JavaScript Source File Inclusion</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page at the following URL includes one or more script files from a third-party domain&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/myverizon/</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/supporthome.html?Keyword=Mobile_Repair_Status</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/index.htm</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/whatsnext/residential/OrderStatus/WNRLogin.aspx?CMP=DMC-CVZ_ZZ_ZZ_Z_DO_N_X031&amp;src=Support</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/whatsnext/residential/OrderStatus/WNRLogin.aspx?CMP=DMC-CVZ_ZZ_ZZ_Z_DO_N_X031&amp;src=Support</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ondemand/mobile/payperview/home</uri>
+  <param>https://m.verizon.com/myverizonmobile/ak-cached/1w/scripts/myvzmobilelib.js</param>
+  <evidence>https://m.verizon.com/myverizonmobile/ak-cached/1w/scripts/myvzmobilelib.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/vzrepair/mSupport/us/contactus.aspx</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ordering/checkavailability.aspx?fromPersonalisation=y&amp;type=pheonix</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ordering/checkavailability.aspx?fromPersonalisation=y&amp;type=pheonix</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/vzrepair/vziha/requestrepair.aspx</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/vzrepair/vziha/requestrepair.aspx</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/ORDERING/CheckAvailability.aspx</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/ORDERING/CheckAvailability.aspx</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/ORDERING/CheckAvailabilityExp.aspx</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/ORDERING/CheckAvailabilityExp.aspx</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/goflow/newconnect/existinguser.aspx?QASegment=BOLTON_NAT&amp;QASource=MLP&amp;flowtype=quantum</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/fiosavailability/</uri>
+  <param>//nexus.ensighten.com/verizon/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/verizon/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/fiosavailability/</uri>
+  <param>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</param>
+  <evidence>//assets.adobedtm.com/10d5272d092923c410feae744225087686012423/satelliteLib-8df7d93db820b272138ecb04dbe4ed7f5023b893.js</evidence>
+  </instance>
+  </instances>
+  <count>1809</count>
+  <solution>&lt;p&gt;Ensure JavaScript source files are loaded from only trusted sources, and the sources can&apos;t be controlled by end users of the application&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10012</pluginid>
+  <alert>Password Autocomplete in browser</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;AUTOCOMPLETE attribute is not disabled in HTML FORM/INPUT element containing password type input.  Passwords may be stored in browsers and retrieved.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/foryourhome/ordering/checkavailability.aspx?fromPersonalisation=y&amp;type=pheonix</uri>
+  <param>input</param>
+  <evidence>&lt;input type=&quot;password&quot; tabindex=&quot;2&quot; placeholder=&quot;PASSWORD:&quot; id=&quot;Password&quot; clientidmode=&quot;Static&quot;/&gt;</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Turn off AUTOCOMPLETE attribute in form or individual input elements containing password by using AUTOCOMPLETE=&apos;OFF&apos;&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/library/default.asp?url=/workshop/author/forms/autocomplete_ovr.asp&lt;/p&gt;</reference>
+  <cweid>525</cweid>
+</alertitem>
+<alertitem>
+  <pluginid>90022</pluginid>
+  <alert>Application Error Disclosure</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/home/standard-accessories/media/</uri>
+  <param>N/A</param>
+  <evidence>HTTP 500 Internal server error</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/fios-accessories/media/</uri>
+  <param>N/A</param>
+  <evidence>HTTP 500 Internal server error</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/smallbusiness/fios-accessories/media/</uri>
+  <param>N/A</param>
+  <evidence>HTTP 500 Internal server error</evidence>
+  </instance>
+  </instances>
+  <count>3</count>
+  <solution>&lt;p&gt;Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10040</pluginid>
+  <alert>Secure page includes mixed content</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page includes mixed content, ie content accessed via http instead of https.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/about/</uri>
+  <attack>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</attack>
+  <evidence>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/quickguides/index.htm?CMP=DMC-CVZ_ZZ_ZZ_Z_ZZ_N_Z00137</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/tv.htm</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/phone.htm</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/QuickGuides/index.htm</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/our-company/supplier-diversity</uri>
+  <attack>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</attack>
+  <evidence>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/internet/highspeedinternet.htm</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/internet/highspeed/networking/setup/setup.htm</uri>
+  <attack>http://onlinehelp.verizon.net/consumer/bin/images/homenetworking/network.gif</attack>
+  <evidence>http://onlinehelp.verizon.net/consumer/bin/images/homenetworking/network.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/home/fiostv/</uri>
+  <attack>http://www22.verizon.com/resources/i/offerfilter/modal/close.jpg</attack>
+  <evidence>http://www22.verizon.com/resources/i/offerfilter/modal/close.jpg</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/careers</uri>
+  <attack>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</attack>
+  <evidence>http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/careers/working-here</uri>
+  <attack>http://www.verizon.com/about/sites/default/files/styles/large/public/fluidity-stacey-aaron-1060x300-w-symbol.jpg?itok=ERWOJmFy</attack>
+  <evidence>http://www.verizon.com/about/sites/default/files/styles/large/public/fluidity-stacey-aaron-1060x300-w-symbol.jpg?itok=ERWOJmFy</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/local/new-jersey-fios/</uri>
+  <attack>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</attack>
+  <evidence>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/local/new-york-fios/</uri>
+  <attack>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</attack>
+  <evidence>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/local/philadelphia-fios/</uri>
+  <attack>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</attack>
+  <evidence>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/local/washington-dc-fios/</uri>
+  <attack>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</attack>
+  <evidence>http://communities.verizon.com/fiosavailesp/for_ifr_map.aspx?ln=ES&amp;CMP=VEC-IT-N-IT-01</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/Internet/fiosinternet.htm</uri>
+  <attack>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</attack>
+  <evidence>http://www.verizon.com/esresources/supt/includes/i/images/reward_icon_small.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/internet/highspeed/networking/setup/questionsone/123765.htm</uri>
+  <attack>http://onlinehelp.verizon.net/consumer/bin/images/buttons/btn_back.gif</attack>
+  <evidence>http://onlinehelp.verizon.net/consumer/bin/images/buttons/btn_back.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/TV/setup.htm</uri>
+  <attack>http://www.youtube.com/embed/VYNLI8TWzeE</attack>
+  <evidence>http://www.youtube.com/embed/VYNLI8TWzeE</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/tv/fiostv/general+support/top+questions/top+questions.htm</uri>
+  <attack>http://onlinehelp.verizon.net/consumer/bin/images/icon_tv.gif</attack>
+  <evidence>http://onlinehelp.verizon.net/consumer/bin/images/icon_tv.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/support/residential/tv/fiostv/remote+controls/setup/setup.htm</uri>
+  <attack>http://onlinehelp.verizon.net/consumer/bin/images/fios/fiostv/ph2-remote.gif</attack>
+  <evidence>http://onlinehelp.verizon.net/consumer/bin/images/fios/fiostv/ph2-remote.gif</evidence>
+  </instance>
+  </instances>
+  <count>38</count>
+  <solution>&lt;p&gt;A page that is available over TLS must be comprised completely of content which is transmitted over TLS. &lt;/p&gt;&lt;p&gt;The page must not contain any content that is transmitted over unencrypted HTTP.&lt;/p&gt;&lt;p&gt;This includes content from unrelated third party sites.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;tag=img src=http://ad.doubleclick.net/ad/N4789.Google/B6983316.110586359;sz=1x1;ord=1234567890?&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>2</pluginid>
+  <alert>Private IP Disclosure</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A private IP such as 10.x.x.x, 172.x.x.x, 192.168.x.x has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/mSupport/us/js/support_browser.js?v=3</uri>
+  <attack>192.168.1.9</attack>
+  <evidence>192.168.1.9</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/Servicecad.aspx?ihaweb=FIX_CPE</uri>
+  <attack>192.168.1.1</attack>
+  <evidence>192.168.1.1</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/Support/Residential/Phone/fix.htm</uri>
+  <attack>192.168.1.9</attack>
+  <evidence>192.168.1.9</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/Servicecad.aspx?ihaweb=Fix_CPE&amp;pos=10</uri>
+  <attack>192.168.1.1</attack>
+  <evidence>192.168.1.1</evidence>
+  </instance>
+  </instances>
+  <count>4</count>
+  <solution>&lt;p&gt;Remove the private IP address from the HTTP response body.  For comments, use JSP/ASP comment instead of HTML/JavaScript comment which can be seen by client browsers.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;192.168.1.9&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://tools.ietf.org/html/rfc1918&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10040</pluginid>
+  <alert>Secure page includes mixed content, including scripts</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page includes mixed content, ie content accessed via http instead of https.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/about/our-company/powerful-answers</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/empowering-educators</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/sustainability</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/employees</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/hopeline</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/product/accessibility</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/product/product-sustainability</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/responsibility/retiree-information</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/careers/working-parents</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/careers/internships-co-ops</uri>
+  <attack>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</attack>
+  <evidence>http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/ForYourHome/VZRepair/vziha/ServiceCms.aspx?ihaweb=WebWiz_GetVMAN</uri>
+  <attack>http://ajax.aspnetcdn.com/ajax/4.5.1/1/WebForms.js</attack>
+  <evidence>http://ajax.aspnetcdn.com/ajax/4.5.1/1/WebForms.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizon.com/about/work/jobs/search?q=Enterprise%20Sales&amp;vt=Enterprise%20Sales</uri>
+  <attack>http://www.verizon.com/about/search</attack>
+  <evidence>http://www.verizon.com/about/search</evidence>
+  </instance>
+  </instances>
+  <count>12</count>
+  <solution>&lt;p&gt;A page that is available over TLS must be comprised completely of content which is transmitted over TLS. &lt;/p&gt;&lt;p&gt;The page must not contain any content that is transmitted over unencrypted HTTP.&lt;/p&gt;&lt;p&gt;This includes content from unrelated third party sites.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;tag=script src=http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/bootstrap-tabcollapse.js&lt;/p&gt;&lt;p&gt;tag=script src=http://www.verizon.com/about/profiles/vzcorp/themes/custom/vzc_bootstrap/js/jquery.flexslider-min.js&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10019</pluginid>
+  <alert>Content-Type Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Content-Type header missing&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizon.com/Foryourhome/MyAccount/Unprotected/UserManagement/Login/Login.aspx?goto=https%3A%2F%2Fwww22%2Everizon%2Ecom%2FForYourHome%2FMyAccount%2FProtected%2FServices%2FMyServices%2Easpx&amp;session=n</uri>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Ensure each page is setting the specific and appropriate content-type value for the content being delivered&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;</reference>
+</alertitem>
+</alerts></site></OWASPZAPReport>
