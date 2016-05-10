@@ -1,0 +1,1404 @@
+<?xml version="1.0"?><OWASPZAPReport version="2.4.3" generated="Tue, 10 May 2016 03:08:10">
+<site name="http://www.verizonwireless.com" host="www.verizonwireless.com" port="80" ssl="false"><alerts><alertitem>
+  <pluginid>10010</pluginid>
+  <alert>Cookie set without HttpOnly flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>GLOBALID=fcb5c4d31ebc4e8bbadda4a29c0bd9ac; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:35 GMT; path=/</param>
+  <evidence>GLOBALID=fcb5c4d31ebc4e8bbadda4a29c0bd9ac; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:35 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>JSESSIONIDHP=1keZbKaP1Hf_o29oamSNvpQJBWBrowUXtdrnZ9ibMVepdcWUr_0A!580120701!obswcvzczap07!5235!-1; path=/</param>
+  <evidence>JSESSIONIDHP=1keZbKaP1Hf_o29oamSNvpQJBWBrowUXtdrnZ9ibMVepdcWUr_0A!580120701!obswcvzczap07!5235!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>GLOBALID=95d3a399cad748c9ad0dabce10c3aa8c; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:36 GMT; path=/</param>
+  <evidence>GLOBALID=95d3a399cad748c9ad0dabce10c3aa8c; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:36 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>JSESSIONIDHP=AFyZbKqRnthq8nUXDz9lJpE6ed5NnvxzZ_TjBHnIaTStpXp-WoGH!1359099054!obswcvzczap05!5232!-1; path=/</param>
+  <evidence>JSESSIONIDHP=AFyZbKqRnthq8nUXDz9lJpE6ed5NnvxzZ_TjBHnIaTStpXp-WoGH!1359099054!obswcvzczap05!5232!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  <param>GLOBALID=d5EwjX8VJEtlboT3KpyKmRp2%2BxmpgU6fk%2B8sWMD2rB0iggt%2BCVYXcuH2zlXxyXAF; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:48:37 GMT; path=/</param>
+  <evidence>GLOBALID=d5EwjX8VJEtlboT3KpyKmRp2%2BxmpgU6fk%2B8sWMD2rB0iggt%2BCVYXcuH2zlXxyXAF; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:48:37 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  <param>JSESSIONIDB2C=LYnqXxGFRZJrQfn0DLxQyrpClVbvsGqTJbPs12ww5NjvjzY2jkVB!911787853!cis-eapp5!5101!-1; path=/</param>
+  <evidence>JSESSIONIDB2C=LYnqXxGFRZJrQfn0DLxQyrpClVbvsGqTJbPs12ww5NjvjzY2jkVB!911787853!cis-eapp5!5101!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  <param>B2CP=47378; domain=.verizonwireless.com; path=/</param>
+  <evidence>B2CP=47378; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  <param>GLOBALID=56ead7b89cad4d3a9b441e413c992d05; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:38 GMT; path=/</param>
+  <evidence>GLOBALID=56ead7b89cad4d3a9b441e413c992d05; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:38 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  <param>JSIDVZW=uImZbLMxMuvtYh6esgwhw5Udd_WUtMscZQcqZc_pPhWV5Zc5swFU!-1023169865!obswcvzczap14!5165!-1; path=/</param>
+  <evidence>JSIDVZW=uImZbLMxMuvtYh6esgwhw5Udd_WUtMscZQcqZc_pPhWV5Zc5swFU!-1023169865!obswcvzczap14!5165!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  <param>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=-1962796445439877932:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</param>
+  <evidence>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=-1962796445439877932:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  <param>GLOBALID=e436aea89f864cfd86d9acda523bb049; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</param>
+  <evidence>GLOBALID=e436aea89f864cfd86d9acda523bb049; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  <param>JSIDVZW=cYeZbLUPXSrpOiCR1BmgQ23kiAMv6j7V1vUq-Fj1Nr6vB3Ep6qsR!-1635928822!obswcvzczap02!5165!-1; path=/</param>
+  <evidence>JSIDVZW=cYeZbLUPXSrpOiCR1BmgQ23kiAMv6j7V1vUq-Fj1Nr6vB3Ep6qsR!-1635928822!obswcvzczap02!5165!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  <param>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=-6014376773064702283:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</param>
+  <evidence>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=-6014376773064702283:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  <param>GLOBALID=4dcb18b886794d6e9c856a6747c6861c; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</param>
+  <evidence>GLOBALID=4dcb18b886794d6e9c856a6747c6861c; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  <param>JSIDVZW=tZaZbLcTbPecs_a9U8fuvHmL3hX31eeVOM8s88SPbpMxFj9ryKqq!-849045491!obswcvzczap02!5164!-1; path=/</param>
+  <evidence>JSIDVZW=tZaZbLcTbPecs_a9U8fuvHmL3hX31eeVOM8s88SPbpMxFj9ryKqq!-849045491!obswcvzczap02!5164!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  <param>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=3858522430117132424:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</param>
+  <evidence>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=3858522430117132424:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  <param>GLOBALID=269626e0911c4498bd817e3cc46702ca; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</param>
+  <evidence>GLOBALID=269626e0911c4498bd817e3cc46702ca; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:39 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  <param>JSIDVZW=S6mZbLdPNJlhxtbITwRVbsw2zd8j0wNXlQDYgthqRhJfZ7ysKRnH!1734857902!obswcvzczap05!5164!-1; path=/</param>
+  <evidence>JSIDVZW=S6mZbLdPNJlhxtbITwRVbsw2zd8j0wNXlQDYgthqRhJfZ7ysKRnH!1734857902!obswcvzczap05!5164!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  <param>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=375689144119878572:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</param>
+  <evidence>vsi=un=postpaid:pd=RYkI7oBDzpkm6XB0o5nJUQ%3D%3D:_dynSessConf=375689144119878572:st=0000000000000000000000010533788200000000000000000000000857115389:pr=aesalgoisbestbes:iv=F27D5C9927726BCEFE7510B1BDD3D137; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/google/</uri>
+  <param>GLOBALID=361be687dbf44ab9abeaee1b3e1fc6a7; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:40 GMT; path=/</param>
+  <evidence>GLOBALID=361be687dbf44ab9abeaee1b3e1fc6a7; domain=.verizonwireless.com; expires=Fri, 10-May-2019 06:48:40 GMT; path=/</evidence>
+  </instance>
+  </instances>
+  <count>29340</count>
+  <solution>&lt;p&gt;Ensure that the HttpOnly flag is set for all cookies.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;www.owasp.org/index.php/HttpOnly&lt;/p&gt;</reference>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10017</pluginid>
+  <alert>Cross-Domain JavaScript Source File Inclusion</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page at the following URL includes one or more script files from a third-party domain&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//nexus.ensighten.com/vzw/prod/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/vzw/prod/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/common/js/vendor/tealeaf/tealeaf.cb994ead40.js</param>
+  <evidence>//scache.vzw.com/omni/common/js/vendor/tealeaf/tealeaf.cb994ead40.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/d/js/mobileRedirect.cbba241149.js</param>
+  <evidence>//scache.vzw.com/omni/d/js/mobileRedirect.cbba241149.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/d/js/vendor/gomez/gtagb.min.cb7cc358fc.js</param>
+  <evidence>//scache.vzw.com/omni/d/js/vendor/gomez/gtagb.min.cb7cc358fc.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/dt/js/compressed/hplib.min.cb2b76790b.js</param>
+  <evidence>//scache.vzw.com/omni/dt/js/compressed/hplib.min.cb2b76790b.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/globalnav/gnav.cb141fc394.js</param>
+  <evidence>//scache.vzw.com/globalnav/gnav.cb141fc394.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/globalnav/omnifooter.cbe473b5df.js</param>
+  <evidence>//scache.vzw.com/globalnav/omnifooter.cbe473b5df.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>https://stags.bluekai.com/site/14197?ret=js</param>
+  <evidence>https://stags.bluekai.com/site/14197?ret=js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/d/js/vendor/offermatica/mbox.cb18d4118d.js</param>
+  <evidence>//scache.vzw.com/omni/d/js/vendor/offermatica/mbox.cb18d4118d.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/globalnav/cache/footer.js</param>
+  <evidence>//scache.vzw.com/globalnav/cache/footer.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/dt/js/compressed/hp.min.cb2b76790b.js</param>
+  <evidence>//scache.vzw.com/omni/dt/js/compressed/hp.min.cb2b76790b.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/common/onlineopinionv5/oo_engine.min.cb27d9ee35.js</param>
+  <evidence>//scache.vzw.com/omni/common/onlineopinionv5/oo_engine.min.cb27d9ee35.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/common/onlineopinionv5/oo_conf_waypoint.cb27d9ee35.js</param>
+  <evidence>//scache.vzw.com/omni/common/onlineopinionv5/oo_conf_waypoint.cb27d9ee35.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/d/js/vendor/liveperson/vzw-le-mtagconfig.cbb36b4659.js</param>
+  <evidence>//scache.vzw.com/omni/d/js/vendor/liveperson/vzw-le-mtagconfig.cbb36b4659.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/common/js/sc_customdefunct.cb27d9ee35.js</param>
+  <evidence>//scache.vzw.com/omni/common/js/sc_customdefunct.cb27d9ee35.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//tags.bkrtx.com/js/bk-coretag.js</param>
+  <evidence>//tags.bkrtx.com/js/bk-coretag.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  <param>//scache.vzw.com/omni/common/js/bluekai.actions.cb27d9ee35.js</param>
+  <evidence>//scache.vzw.com/omni/common/js/bluekai.actions.cb27d9ee35.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  <param>//scache.vzw.com/scripts/gomez/gtagb.js?v=2013175</param>
+  <evidence>//scache.vzw.com/scripts/gomez/gtagb.js?v=2013175</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  <param>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</param>
+  <evidence>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  <param>//scache.vzw.com/globalnav/gnav.js</param>
+  <evidence>//scache.vzw.com/globalnav/gnav.js</evidence>
+  </instance>
+  </instances>
+  <count>81703</count>
+  <solution>&lt;p&gt;Ensure JavaScript source files are loaded from only trusted sources, and the sources can&apos;t be controlled by end users of the application&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/amserver/cdcservlet</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/google/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/kyocera/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/samsung/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/nokia/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/verizon/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/delphi/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/htc/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sony-ericsson/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/pantech/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/*/&amp;Nr=AND</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/utstarcom/</uri>
+  </instance>
+  </instances>
+  <count>5060</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/amserver/cdcservlet</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/google/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/kyocera/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/samsung/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/nokia/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/verizon/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/delphi/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/htc/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sony-ericsson/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/pantech/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/*/&amp;Nr=AND</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/utstarcom/</uri>
+  </instance>
+  </instances>
+  <count>5078</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/robots.txt</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sitemap.xml</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/amserver/cdcservlet</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/casio/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/motorola/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/lg/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/blackberry/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/google/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/kyocera/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/samsung/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/nokia/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/verizon/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/delphi/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/htc/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/sony-ericsson/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/pantech/</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/*/&amp;Nr=AND</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/utstarcom/</uri>
+  </instance>
+  </instances>
+  <count>5059</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY.  ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10012</pluginid>
+  <alert>Password Autocomplete in browser</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;AUTOCOMPLETE attribute is not disabled in HTML FORM/INPUT element containing password type input.  Passwords may be stored in browsers and retrieved.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/signin.jsp</uri>
+  <param>input</param>
+  <evidence>&lt;input type=&quot;password&quot; name=&quot;IDToken2&quot; id=&quot;Business_Password&quot; maxlength=&quot;60&quot; style=&quot;width:180px;&quot; /&gt;</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Turn off AUTOCOMPLETE attribute in form or individual input elements containing password by using AUTOCOMPLETE=&apos;OFF&apos;&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/library/default.asp?url=/workshop/author/forms/autocomplete_ovr.asp&lt;/p&gt;</reference>
+  <cweid>525</cweid>
+</alertitem>
+<alertitem>
+  <pluginid>10019</pluginid>
+  <alert>Content-Type Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Content-Type header missing&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneAvailability&amp;item=phoneFirst&amp;selectedPhoneId</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewStoreIndex&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceCategoryId=25&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceCategoryId=23&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceCategoryId=5&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewShopIndex&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceType=Phones&amp;item=phoneFirst&amp;lid=//global//phones+and+accessories//cell+phones&amp;sortOption=priceSort</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myaccount/&apos;+myBiz+&apos;/tbmb/onlineEnrollShow.do</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=start&amp;item=eligibility</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=discountEligibility&amp;item=b2eItem</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/promotion/controller?amp;action=viewHotDeals&amp;amp;cmp=ILC-RSS-NEWPRODUCTS&amp;amp;lid=//global//phones+and+accessories//new+products&amp;promotionType=hotDeals</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/myverizonlp;JSESSIONIDB2C=82LYXxGCsrTqVspjv7yXGGG61LyTKdPVY70vdgw4h5BpR1vY9Wj0!-1089232001!cis-wapp13!5101!-1</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceType=Phones&amp;item=phoneFirst&amp;sortOption=priceSort</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;capId=156&amp;deviceCategoryId=1&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceCategoryId=15&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceCategoryId=13&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;capId=85&amp;deviceType=Phones&amp;item=phoneFirst&amp;sortOption=priceSort</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/promotion/controller?promotionId=8759&amp;promotionType=SPECIAL_OFFER</uri>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/b2c/store/controller?action=viewPhoneOverviewByDevice&amp;deviceType=3G%20Smartphones&amp;item=phoneFirst</uri>
+  </instance>
+  </instances>
+  <count>19</count>
+  <solution>&lt;p&gt;Ensure each page is setting the specific and appropriate content-type value for the content being delivered&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>90022</pluginid>
+  <alert>Application Error Disclosure</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/vzw/baseajaxservlet</uri>
+  <param>N/A</param>
+  <evidence>HTTP 500 Internal server error</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>2</pluginid>
+  <alert>Private IP Disclosure</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A private IP such as 10.x.x.x, 172.x.x.x, 192.168.x.x has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>http://www.verizonwireless.com/accessories/antenna-for-lte/</uri>
+  <attack>192.168.1.1</attack>
+  <evidence>192.168.1.1</evidence>
+  </instance>
+  <instance>
+  <uri>http://www.verizonwireless.com/support/lte-internet-installed-faqs/</uri>
+  <attack>192.168.1.254</attack>
+  <evidence>192.168.1.254</evidence>
+  </instance>
+  </instances>
+  <count>2</count>
+  <solution>&lt;p&gt;Remove the private IP address from the HTTP response body.  For comments, use JSP/ASP comment instead of HTML/JavaScript comment which can be seen by client browsers.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;192.168.1.1&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://tools.ietf.org/html/rfc1918&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+</alerts></site><site name="https://www.verizonwireless.com" host="www.verizonwireless.com" port="443" ssl="true"><alerts><alertitem>
+  <pluginid>10015</pluginid>
+  <alert>Incomplete or No Cache-control and Pragma HTTP Header Set</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The cache-control and pragma HTTP header have not been set properly or are missing allowing the browser and proxies to cache content.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/router.action</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/global.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/nonStandard.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecom.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecomSplit.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/globalnav-js.css?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/gomez/gtagb.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/scripts/vzw_jquery17.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/gnav.js?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/jquery.ui.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/mootools131.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/library.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/troubleshooting/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp?amLogin=true&amp;flow=EUP</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/ordertracking/index.jsp</uri>
+  </instance>
+  </instances>
+  <count>145</count>
+  <solution>&lt;p&gt;Whenever possible ensure the cache-control HTTP header is set with no-cache, no-store, must-revalidate, private; and that the pragma HTTP header is set with no-cache.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Session_Management_Cheat_Sheet#Web_Content_Caching&lt;/p&gt;</reference>
+  <cweid>525</cweid>
+</alertitem>
+<alertitem>
+  <pluginid>10016</pluginid>
+  <alert>Web Browser XSS Protection Not Enabled</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Web Browser XSS Protection is not enabled, or is disabled by the configuration of the &apos;X-XSS-Protection&apos; HTTP response header on the web server&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/global.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/nonStandard.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecom.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecomSplit.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/vzw_jquery.css</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/globalnav-js.css?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/gomez/gtagb.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/scripts/vzw_jquery17.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/gnav.js?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/jquery.ui.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/mootools131.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/library.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/troubleshooting/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/ordertracking/index.jsp</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/device-replacement-program/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/cell-phone-plans/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/devices/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/better-matters/</uri>
+  </instance>
+  </instances>
+  <count>154</count>
+  <solution>&lt;p&gt;Ensure that the web browser&apos;s XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to &apos;1&apos;.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;The X-XSS-Protection HTTP response header allows the web server to enable or disable the web browser&apos;s XSS protection mechanism. The following values would attempt to enable it: &lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; mode=block&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 1; report=http://www.example.com/xss&lt;/p&gt;&lt;p&gt;The following values would disable it:&lt;/p&gt;&lt;p&gt;X-XSS-Protection: 0&lt;/p&gt;&lt;p&gt;The X-XSS-Protection HTTP response header is currently supported on Internet Explorer, Chrome and Safari (WebKit).&lt;/p&gt;&lt;p&gt;Note that this alert is only raised if the response body could potentially contain an XSS payload (with a text-based content type, with a non-zero length).&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet&lt;/p&gt;&lt;p&gt;https://blog.veracode.com/2014/03/guidelines-for-setting-security-headers/&lt;/p&gt;</reference>
+  <cweid>933</cweid>
+  <wascid>14</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10011</pluginid>
+  <alert>Cookie set without secure flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the secure flag, which means that the cookie can be accessed via unencrypted connections.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/securecode/visa.html</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/securecode/mastercard.html</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  <param>GLOBALID=bn%2B8pq87dr067Di6EPhsY%2FWdw34F3emHjNW%2FUHPgeJ%2BOFIwd5TRQA8sNlDAFIGUQ; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:39 GMT; path=/</param>
+  <evidence>GLOBALID=bn%2B8pq87dr067Di6EPhsY%2FWdw34F3emHjNW%2FUHPgeJ%2BOFIwd5TRQA8sNlDAFIGUQ; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:39 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/router.action</uri>
+  <param>NSC_xxx_qptuqbje_mcwt=ffffffff09f7175c45525d5f4f58455e445a4a42221a;path=/;httponly</param>
+  <evidence>NSC_xxx_qptuqbje_mcwt=ffffffff09f7175c45525d5f4f58455e445a4a42221a;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/router.action</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>GLOBALID=i1UeYLZVeH9zl5QyuwXUaOQwBmLAofgwRvM8Hmrx6KSZLcM6NCsAUBjjkBa1zWiO; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</param>
+  <evidence>GLOBALID=i1UeYLZVeH9zl5QyuwXUaOQwBmLAofgwRvM8Hmrx6KSZLcM6NCsAUBjjkBa1zWiO; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>JSESSIONIDB2C=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1; path=/</param>
+  <evidence>JSESSIONIDB2C=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>B2CP=16121; domain=.verizonwireless.com; path=/</param>
+  <evidence>B2CP=16121; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>SESSION_VALUE=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1!1462863046525; domain=www.verizonwireless.com; path=/</param>
+  <evidence>SESSION_VALUE=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1!1462863046525; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>TIME_CHECKER=1462863046529; domain=www.verizonwireless.com; path=/</param>
+  <evidence>TIME_CHECKER=1462863046529; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</param>
+  <evidence>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>ZIPCODE=92618; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIPCODE=92618; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>CITY=Irvine; domain=.verizonwireless.com; path=/</param>
+  <evidence>CITY=Irvine; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>STATE=CA; domain=.verizonwireless.com; path=/</param>
+  <evidence>STATE=CA; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</param>
+  <evidence>NSC_xxx_hwt=ffffffffa17b0cd945525d5f4f58455e445a4a420000;path=/;httponly</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>GLOBALID=gGlKkPeEB95pr2n%2BKMYTcIzndArao2kdb9PO2WZ2pjuNJZo0ZrCQcPFR4MchH1mc; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</param>
+  <evidence>GLOBALID=gGlKkPeEB95pr2n%2BKMYTcIzndArao2kdb9PO2WZ2pjuNJZo0ZrCQcPFR4MchH1mc; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>JSESSIONIDB2C=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1; path=/</param>
+  <evidence>JSESSIONIDB2C=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1; path=/</evidence>
+  </instance>
+  </instances>
+  <count>644</count>
+  <solution>&lt;p&gt;Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted tunnel. Ensure that the secure flag is set for cookies containing such sensitive information.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://www.owasp.org/index.php/Testing_for_cookies_attributes_(OWASP-SM-002)&lt;/p&gt;</reference>
+  <cweid>614</cweid>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10017</pluginid>
+  <alert>Cross-Domain JavaScript Source File Inclusion</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page at the following URL includes one or more script files from a third-party domain&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/scripts/gomez/gtagb.js</param>
+  <evidence>//scache.vzw.com/scripts/gomez/gtagb.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//nexus.ensighten.com/vzw/prod/Bootstrap.js</param>
+  <evidence>//nexus.ensighten.com/vzw/prod/Bootstrap.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</param>
+  <evidence>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/wcms/jquery-ui.min.js</param>
+  <evidence>//scache.vzw.com/wcms/jquery-ui.min.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/globalnav/gnav.js</param>
+  <evidence>//scache.vzw.com/globalnav/gnav.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/scripts/accessible/mootools131.js</param>
+  <evidence>//scache.vzw.com/scripts/accessible/mootools131.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/scripts/accessible/library.js</param>
+  <evidence>//scache.vzw.com/scripts/accessible/library.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>//scache.vzw.com/scripts/offermatica/mbox.js</param>
+  <evidence>//scache.vzw.com/scripts/offermatica/mbox.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>https://scache.vzw.com/wcms/s_code.js</param>
+  <evidence>https://scache.vzw.com/wcms/s_code.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <param>https://seal.verisign.com/getseal?host_name=www.verizonwireless.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en</param>
+  <evidence>https://seal.verisign.com/getseal?host_name=www.verizonwireless.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/scripts/gomez/gtagb.js</param>
+  <evidence>//scache.vzw.com/scripts/gomez/gtagb.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</param>
+  <evidence>//scache.vzw.com/globalnav/scripts/vzw_jquery.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/wcms/jquery-ui.min.js</param>
+  <evidence>//scache.vzw.com/wcms/jquery-ui.min.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/globalnav/gnav.js</param>
+  <evidence>//scache.vzw.com/globalnav/gnav.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/scripts/accessible/mootools131.js</param>
+  <evidence>//scache.vzw.com/scripts/accessible/mootools131.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/scripts/accessible/library.js</param>
+  <evidence>//scache.vzw.com/scripts/accessible/library.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>https://stags.bluekai.com/site/14197?ret=js</param>
+  <evidence>https://stags.bluekai.com/site/14197?ret=js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/omni/d/js/vendor/offermatica/mbox.js</param>
+  <evidence>//scache.vzw.com/omni/d/js/vendor/offermatica/mbox.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>https://scache.vzw.com/wcms/s_code.js</param>
+  <evidence>https://scache.vzw.com/wcms/s_code.js</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  <param>//scache.vzw.com/scripts/accessible/mootools131more.js</param>
+  <evidence>//scache.vzw.com/scripts/accessible/mootools131more.js</evidence>
+  </instance>
+  </instances>
+  <count>1685</count>
+  <solution>&lt;p&gt;Ensure JavaScript source files are loaded from only trusted sources, and the sources can&apos;t be controlled by end users of the application&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10040</pluginid>
+  <alert>Secure page includes mixed content</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page includes mixed content, ie content accessed via http instead of https.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/better-matters/</uri>
+  <attack>http://vzwmap.verizonwireless.com/dotcom/coveragelocator/</attack>
+  <evidence>http://vzwmap.verizonwireless.com/dotcom/coveragelocator/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/voicecommands.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/velasense.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/alternatemedia.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/impaired.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/talks.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/hearing.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/nationwidemessaging.html</uri>
+  <attack>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</attack>
+  <evidence>http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/news.html</uri>
+  <attack>http://www.verizonwireless.com/images_b2c/shared/nav/finalmark.gif</attack>
+  <evidence>http://www.verizonwireless.com/images_b2c/shared/nav/finalmark.gif</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/etc/designs/contact_us/components/content/video_general_phx/clientlib.js</uri>
+  <attack>http://cache.vzw.com/support/clc/images/video_play_icon.png</attack>
+  <evidence>http://cache.vzw.com/support/clc/images/video_play_icon.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/etc/designs/contact_us/components/content/accountvideo_general_phx/clientlib.js</uri>
+  <attack>http://cache.vzw.com/support/clc/images/video_play_icon.png</attack>
+  <evidence>http://cache.vzw.com/support/clc/images/video_play_icon.png</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stores/</uri>
+  <attack>http://ss7.vzw.com/is/image/VerizonWireless/banner-store-locator-deals-10953?$pngalpha$&amp;scl=1</attack>
+  <evidence>http://ss7.vzw.com/is/image/VerizonWireless/banner-store-locator-deals-10953?$pngalpha$&amp;scl=1</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/splash/retailrealestate.jsp?v=3</uri>
+  <attack>http://ss7.vzw.com/is/image/VerizonWireless/US-Real-Estate-Map?&amp;scl=1</attack>
+  <evidence>http://ss7.vzw.com/is/image/VerizonWireless/US-Real-Estate-Map?&amp;scl=1</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/samsung/?tab=why-verizon</uri>
+  <attack>http://s7.vzw.com/is/content/VerizonWireless/2016/Landing%20Pages/Samsung%20Landing%20Page/Samsung%20LP/Videos/Render/50%20Sec/VZW_Samsung_Hero2_50sec_Audio-vid-render_Flash9_Autox720p_2600k.mp4</attack>
+  <evidence>http://s7.vzw.com/is/content/VerizonWireless/2016/Landing%20Pages/Samsung%20Landing%20Page/Samsung%20LP/Videos/Render/50%20Sec/VZW_Samsung_Hero2_50sec_Audio-vid-render_Flash9_Autox720p_2600k.mp4</evidence>
+  </instance>
+  </instances>
+  <count>15</count>
+  <solution>&lt;p&gt;A page that is available over TLS must be comprised completely of content which is transmitted over TLS. &lt;/p&gt;&lt;p&gt;The page must not contain any content that is transmitted over unencrypted HTTP.&lt;/p&gt;&lt;p&gt;This includes content from unrelated third party sites.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;tag=img src=http://cache.vzw.com/images_b2c/shared/elements/circle_i.gif&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10021</pluginid>
+  <alert>X-Content-Type-Options Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &apos;nosniff&apos;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/router.action</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/global.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/nonStandard.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecom.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecomSplit.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/vzw_jquery.css</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/globalnav-js.css?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/gomez/gtagb.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/scripts/vzw_jquery17.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/gnav.js?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/jquery.ui.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/mootools131.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/library.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/troubleshooting/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp?amLogin=true&amp;flow=EUP</uri>
+  </instance>
+  </instances>
+  <count>165</count>
+  <solution>&lt;p&gt;Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &apos;nosniff&apos; for all web pages.&lt;/p&gt;&lt;p&gt;If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;This issue still applies to error type pages (401, 403, 500, etc) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.&lt;/p&gt;&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;&lt;p&gt;https://www.owasp.org/index.php/List_of_useful_HTTP_headers&lt;/p&gt;</reference>
+  <wascid>15</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10020</pluginid>
+  <alert>X-Frame-Options Header Not Set</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;X-Frame-Options header is not included in the HTTP response to protect against &apos;ClickJacking&apos; attacks.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/aboutus/accessibility/index.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/global.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/nonStandard.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecom.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/stylesheets/ecomSplit.css?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/vzw_jquery.css</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/css/globalnav-js.css?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/gomez/gtagb.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/scripts/vzw_jquery17.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/globalnav/gnav.js?v=2</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/jquery.ui.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/mootools131.js</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/wcms/contact-us.html</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/scripts/accessible/library.js?v=2016123</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/troubleshooting/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/ordertracking/index.jsp</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/support/device-replacement-program/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/cell-phone-plans/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/devices/</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/landingpages/better-matters/</uri>
+  </instance>
+  </instances>
+  <count>154</count>
+  <solution>&lt;p&gt;Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it&apos;s set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it&apos;s part of a FRAMESET) then you&apos;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY.  ALLOW-FROM allows specific websites to frame the web page in supported web browsers).&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;At &quot;High&quot; threshold this scanner will not alert on client or server error responses.&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;http://blogs.msdn.com/b/ieinternals/archive/2010/03/30/combating-clickjacking-with-x-frame-options.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10019</pluginid>
+  <alert>Content-Type Header Missing</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;Content-Type header missing&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/router.action</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp?amLogin=true&amp;flow=EUP</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/callingplanchange/initCallingPlanChange.do</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp?amLogin=true&amp;flow=AAL</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/vzw/secure/authDecision.jsp?amLogin=true&amp;flow=CPCONLY</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/callingplanchange/callingPlanChangeOverview.do</uri>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/CoverageLocatorController?coveragetype=datacoverage&amp;requesttype=NEWREQUEST</uri>
+  </instance>
+  </instances>
+  <count>11</count>
+  <solution>&lt;p&gt;Ensure each page is setting the specific and appropriate content-type value for the content being delivered&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>10010</pluginid>
+  <alert>Cookie set without HttpOnly flag</alert>
+  <riskcode>1</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Low (Medium)</riskdesc>
+  <desc>&lt;p&gt;A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/accountholder/estore/changeplan</uri>
+  <param>GLOBALID=bn%2B8pq87dr067Di6EPhsY%2FWdw34F3emHjNW%2FUHPgeJ%2BOFIwd5TRQA8sNlDAFIGUQ; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:39 GMT; path=/</param>
+  <evidence>GLOBALID=bn%2B8pq87dr067Di6EPhsY%2FWdw34F3emHjNW%2FUHPgeJ%2BOFIwd5TRQA8sNlDAFIGUQ; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:39 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>TIME_CHECKER=1462863046529; domain=www.verizonwireless.com; path=/</param>
+  <evidence>TIME_CHECKER=1462863046529; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>GLOBALID=i1UeYLZVeH9zl5QyuwXUaOQwBmLAofgwRvM8Hmrx6KSZLcM6NCsAUBjjkBa1zWiO; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</param>
+  <evidence>GLOBALID=i1UeYLZVeH9zl5QyuwXUaOQwBmLAofgwRvM8Hmrx6KSZLcM6NCsAUBjjkBa1zWiO; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</param>
+  <evidence>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>JSESSIONIDB2C=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1; path=/</param>
+  <evidence>JSESSIONIDB2C=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>ZIPCODE=92618; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIPCODE=92618; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>CITY=Irvine; domain=.verizonwireless.com; path=/</param>
+  <evidence>CITY=Irvine; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>B2CP=16121; domain=.verizonwireless.com; path=/</param>
+  <evidence>B2CP=16121; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>STATE=CA; domain=.verizonwireless.com; path=/</param>
+  <evidence>STATE=CA; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewAllPhones&amp;deviceType=Phones&amp;item=phoneFirst</uri>
+  <param>SESSION_VALUE=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1!1462863046525; domain=www.verizonwireless.com; path=/</param>
+  <evidence>SESSION_VALUE=T1qcXxGGL9yHRFN3WpyZ7y5FCN2N8GtnyvYJC7QDGd4QfhN5FYJM!-927901440!cis-wapp5!5101!-1!1462863046525; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>GLOBALID=gGlKkPeEB95pr2n%2BKMYTcIzndArao2kdb9PO2WZ2pjuNJZo0ZrCQcPFR4MchH1mc; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</param>
+  <evidence>GLOBALID=gGlKkPeEB95pr2n%2BKMYTcIzndArao2kdb9PO2WZ2pjuNJZo0ZrCQcPFR4MchH1mc; domain=.verizonwireless.com; expires=Wed, 10-May-2017 06:50:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>JSESSIONIDB2C=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1; path=/</param>
+  <evidence>JSESSIONIDB2C=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>B2CP=33317; domain=.verizonwireless.com; path=/</param>
+  <evidence>B2CP=33317; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>SESSION_VALUE=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1!1462863046579; domain=www.verizonwireless.com; path=/</param>
+  <evidence>SESSION_VALUE=m1xjXxGG2vV8NSTH9pvrvZjptg7jKq2jQVjHyNVRpmF4RNX3y2Cj!1269738666!cis-wapp11!5101!-1!1462863046579; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>TIME_CHECKER=1462863046582; domain=www.verizonwireless.com; path=/</param>
+  <evidence>TIME_CHECKER=1462863046582; domain=www.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIP_CONFIRMED=false; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</param>
+  <evidence>CARTVIEW=FALSE; domain=.verizonwireless.com; expires=Tue, 10-May-2016 07:10:46 GMT; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>ZIPCODE=92618; domain=.verizonwireless.com; path=/</param>
+  <evidence>ZIPCODE=92618; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  <instance>
+  <uri>https://www.verizonwireless.com/b2c/store/controller?action=viewPlanOverview&amp;item=planFirst</uri>
+  <param>CITY=Irvine; domain=.verizonwireless.com; path=/</param>
+  <evidence>CITY=Irvine; domain=.verizonwireless.com; path=/</evidence>
+  </instance>
+  </instances>
+  <count>379</count>
+  <solution>&lt;p&gt;Ensure that the HttpOnly flag is set for all cookies.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;www.owasp.org/index.php/HttpOnly&lt;/p&gt;</reference>
+  <wascid>13</wascid>
+</alertitem>
+<alertitem>
+  <pluginid>10040</pluginid>
+  <alert>Secure page includes mixed content, including scripts</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;The page includes mixed content, ie content accessed via http instead of https.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/prepaid/</uri>
+  <attack>http://s7.vzw.com/s7viewers/html5/js/VideoViewer.js</attack>
+  <evidence>http://s7.vzw.com/s7viewers/html5/js/VideoViewer.js</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;A page that is available over TLS must be comprised completely of content which is transmitted over TLS. &lt;/p&gt;&lt;p&gt;The page must not contain any content that is transmitted over unencrypted HTTP.&lt;/p&gt;&lt;p&gt;This includes content from unrelated third party sites.&lt;/p&gt;</solution>
+  <otherinfo>&lt;p&gt;tag=script src=http://s7.vzw.com/s7viewers/html5/js/VideoViewer.js&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</otherinfo>
+  <reference>&lt;p&gt;https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet&lt;/p&gt;</reference>
+</alertitem>
+<alertitem>
+  <pluginid>90022</pluginid>
+  <alert>Application Error Disclosure</alert>
+  <riskcode>2</riskcode>
+  <confidence>2</confidence>
+  <riskdesc>Medium (Medium)</riskdesc>
+  <desc>&lt;p&gt;This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.&lt;/p&gt;</desc>
+  <instances>
+  <instance>
+  <uri>https://www.verizonwireless.com/search/assembler?Dy=1&amp;Ntt&amp;assemblerContentCollection=/content/GSS/Web/GSS%20TypeAhead%20Collections&amp;format=jsonp</uri>
+  <param>N/A</param>
+  <evidence>HTTP 500 Internal server error</evidence>
+  </instance>
+  </instances>
+  <count>1</count>
+  <solution>&lt;p&gt;Review the source code of this page. Implement custom error pages. Consider implementing a mechanism to provide a unique error reference/identifier to the client (browser) while logging the details on the server side and not exposing them to the user.&lt;/p&gt;</solution>
+  <reference>&lt;p&gt;&lt;/p&gt;</reference>
+  <cweid>200</cweid>
+  <wascid>13</wascid>
+</alertitem>
+</alerts></site></OWASPZAPReport>
